@@ -18,9 +18,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F103RCT6
 BINARY = button
-
-LDSCRIPT = ../waveshare-open103r.ld
 
 include ../../Makefile.include
 

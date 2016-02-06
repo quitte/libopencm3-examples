@@ -17,12 +17,13 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F103RBT6
+
 BINARY = adc_injec_timtrig_irq_4ch
 
 # Comment the following line if you _don't_ have luftboot flashed!
 LDFLAGS += -Wl,-Ttext=0x8002000
 CFLAGS += -std=c99
-LDSCRIPT = ../lisa-m.ld
 
 include ../../Makefile.include
 

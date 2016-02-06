@@ -17,8 +17,7 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = lpc4350
 BINARY = miniblink
-
-LDSCRIPT = ../diolan-lpc-4350-db1.ld
 
 include ../../Makefile.include

@@ -16,10 +16,8 @@
 ## You should have received a copy of the GNU Lesser General Public License
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
-
+DEVICE = STM32F429ZI
 BINARY = mandel
-
-LDSCRIPT = ../stm32f429i-discovery.ld
 
 include ../../Makefile.include
 

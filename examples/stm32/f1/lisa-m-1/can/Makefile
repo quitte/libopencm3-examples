@@ -17,9 +17,9 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
-BINARY = can
+DEVICE = STM32F103RBT6
 
-LDSCRIPT = ../lisa-m.ld
+BINARY = can
 
 include ../../Makefile.include
 

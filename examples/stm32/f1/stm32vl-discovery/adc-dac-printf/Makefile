@@ -17,8 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F100RB
 BINARY = adc-dac-printf
-LDSCRIPT = $(OPENCM3_DIR)/lib/stm32/f1/stm32f100xb.ld
 
 include ../../Makefile.include
 

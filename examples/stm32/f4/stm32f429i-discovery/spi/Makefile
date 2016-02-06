@@ -1,8 +1,7 @@
+DEVICE = STM32F429ZI
 CFLAGS = -DTEST
 OBJS = clock.o console.o
 
 BINARY = spi-mems
-
-LDSCRIPT = ../stm32f429i-discovery.ld
 
 include ../../Makefile.include

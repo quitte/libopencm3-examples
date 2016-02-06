@@ -17,10 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = lm4f120xl
 BINARY = usb_to_serial_cdcacm
-
-LDSCRIPT = ../ek-lm4f120xl.ld
-
 
 OBJS += uart.o usb_cdcacm.o
 

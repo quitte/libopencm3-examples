@@ -17,9 +17,9 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
-BINARY = usbdfu
+DEVICE = STM32F103RBT6
 
-LDSCRIPT = ../lisa-m.ld
+BINARY = usbdfu
 
 include ../../Makefile.include
 

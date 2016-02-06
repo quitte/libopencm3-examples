@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = stm32l151xb
 BINARY = main
-
-LDSCRIPT = $(OPENCM3_DIR)/lib/stm32/l1/stm32l15xxb.ld
 
 include ../../Makefile.include
 

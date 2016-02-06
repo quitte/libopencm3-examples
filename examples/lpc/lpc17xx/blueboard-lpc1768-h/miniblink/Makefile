@@ -17,8 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
-BINARY = miniblink
+DEVICE = lpc1768
 
-LDSCRIPT = ../blueboard-lpc1768-h.ld
+BINARY = miniblink
 
 include ../../Makefile.include

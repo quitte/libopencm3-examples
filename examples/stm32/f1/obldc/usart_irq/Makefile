@@ -17,11 +17,10 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F103CBT6
 BINARY = usart_irq
 
 OOCD_BOARD = open-bldc
-
-LDSCRIPT = ../obldc.ld
 
 include ../../Makefile.include
 

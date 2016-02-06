@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F411RE
 BINARY = usart-stdio
-
-LDSCRIPT = ../nucleo-f411re.ld
 
 include ../../Makefile.include
 

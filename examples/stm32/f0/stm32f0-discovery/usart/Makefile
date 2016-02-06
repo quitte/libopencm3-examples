@@ -17,9 +17,9 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
-BINARY = usart
+DEVICE = stm32f051r8
 
-LDSCRIPT = ../stm32f0-discovery.ld
+BINARY = usart
 
 include ../../Makefile.include
 

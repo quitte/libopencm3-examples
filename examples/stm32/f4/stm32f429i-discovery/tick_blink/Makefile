@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F429ZI
 BINARY = tick_blink
-
-LDSCRIPT = ../stm32f429i-discovery.ld
 
 include ../../Makefile.include
 

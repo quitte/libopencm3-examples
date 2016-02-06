@@ -17,8 +17,7 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = lpc4330
 BINARY = miniblink
-
-LDSCRIPT = ../jellybean-lpc4330_rom_to_ram.ld
 
 include ../../Makefile.include

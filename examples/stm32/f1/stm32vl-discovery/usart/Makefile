@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F100RB
 BINARY = usart
-
-LDSCRIPT = ../stm32vl-discovery.ld
 
 include ../../Makefile.include
 

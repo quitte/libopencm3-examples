@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32l0xxx8
 BINARY = miniblink
-
-LDSCRIPT = $(OPENCM3_DIR)/lib/stm32/l0/stm32l0xx8.ld
 
 include ../../Makefile.include
 

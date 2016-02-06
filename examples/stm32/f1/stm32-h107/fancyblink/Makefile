@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F107VCT6
 BINARY = fancyblink
-
-LDSCRIPT = ../stm32-h107.ld
 
 include ../../Makefile.include
 

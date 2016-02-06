@@ -18,9 +18,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = VF610
 BINARY = uart-gpio
-
-LDSCRIPT = ../colibri-vf61.ld
 
 include ../Makefile.include
 

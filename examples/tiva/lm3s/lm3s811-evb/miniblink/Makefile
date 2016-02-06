@@ -17,8 +17,7 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = lm3s811
 BINARY = miniblink
-
-LDSCRIPT = ../lm3s811-evb.ld
 
 include ../../Makefile.include

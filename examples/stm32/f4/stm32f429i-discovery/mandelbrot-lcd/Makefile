@@ -17,11 +17,10 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F429ZI
 OBJS = sdram.o lcd.o clock.o
 
 BINARY = mandel
-
-LDSCRIPT = ../stm32f429i-discovery.ld
 
 include ../../Makefile.include
 

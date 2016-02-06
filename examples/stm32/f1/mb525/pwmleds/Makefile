@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F103RBT6
 BINARY = pwmleds
-
-LDSCRIPT = ../mb525.ld
 
 include ../../Makefile.include
 

@@ -17,8 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F429ZI
 BINARY = adc-dac-printf
-LDSCRIPT = ../stm32f429i-discovery.ld
 
 include ../../Makefile.include
 

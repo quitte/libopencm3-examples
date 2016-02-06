@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F205abc
 BINARY = usart_printf
-
-LDSCRIPT = ../jobygps.ld
 
 include ../../Makefile.include
 

@@ -17,8 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
-BINARY = miniblink
+DEVICE = lpc1343
 
-LDSCRIPT = ../lpc-p1343.ld
+BINARY = miniblink
 
 include ../../Makefile.include

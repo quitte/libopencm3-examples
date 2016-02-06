@@ -17,8 +17,7 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = lm4f120xl
 BINARY = miniblink
-
-LDSCRIPT = ../ek-lm4f120xl.ld
 
 include ../../Makefile.include

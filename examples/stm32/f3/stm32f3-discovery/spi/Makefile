@@ -17,8 +17,7 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = STM32F303VC
 BINARY = spi
-
-LDSCRIPT = ../stm32f3-discovery.ld
 
 include ../../Makefile.include

@@ -17,6 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE=stm32f051R8
+
 BINARY = adc
 
 LDSCRIPT = ../stm32f0-discovery.ld

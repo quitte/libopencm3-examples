@@ -17,8 +17,7 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = lpc4330
 BINARY = systickdemo
-
-LDSCRIPT = ../jellybean-lpc4330.ld
 
 include ../../Makefile.include

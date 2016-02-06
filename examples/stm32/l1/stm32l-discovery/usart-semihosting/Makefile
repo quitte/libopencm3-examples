@@ -17,9 +17,8 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+DEVICE = stm32l151xb
 BINARY = usart-semihosting
-
-LDSCRIPT = $(OPENCM3_DIR)/lib/stm32/l1/stm32l15xxb.ld
 
 # To disable, run "make ENABLE_SEMIHOSTING=0" or comment next line out
 ENABLE_SEMIHOSTING ?= 1
