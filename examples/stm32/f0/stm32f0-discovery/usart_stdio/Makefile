@@ -19,7 +19,7 @@
 
 DEVICE = stm32f051r8
 
-BINARY = usart_stdio
+BINARY =
 
 include ../../Makefile.include
 

@@ -47,7 +47,7 @@ STYLECHECKFILES	:= $(shell find . -name '*.[ch]')
 ###############################################################################
 # Source files
 
-OBJS		+= $(BINARY).o
+OBJS		+= $(addsuffix .o,$(BINARY))
 
 
 ifeq ($(strip $(OPENCM3_DIR)),)
@@ -118,14 +118,14 @@ LDLIBS		+= -Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group
 
 all: elf
 
-elf: $(BINARY).elf
-bin: $(BINARY).bin
-hex: $(BINARY).hex
-srec: $(BINARY).srec
-list: $(BINARY).list
+elf: $(addsuffix .elf,$(BINARY))
+bin: $(addsuffix .bin,$(BINARY))
+hex: $(addsuffix .hex,$(BINARY))
+srec: $(addsuffix .srec,$(BINARY))
+list: $(addsuffix .list,$(BINARY))
 
-images: $(BINARY).images
-flash: $(BINARY).flash
+images: $(addsuffix .images,$(BINARY))
+flash: $(addsuffix .flash,$(BINARY))
 
 clean:
 	@#printf "  CLEAN\n"
